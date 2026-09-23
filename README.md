@@ -10,7 +10,7 @@ The visual direction is inspired by Frutiger Aero: bright skies, saturated green
 
 - Responsive single-page layout for desktop, tablet, and mobile
 - Original Frutiger Aero artwork for the hero and project cards
-- Portfolio sections for biography, expertise, credentials, current work, hobbies, skills, and contact details
+- Portfolio sections for biography, expertise, featured systems, credentials, technical index, and contact details
 - Sticky navigation with an accessible mobile menu
 - Active-section navigation states
 - Scroll reveal animations with `prefers-reduced-motion` support
@@ -43,21 +43,24 @@ The site can also be opened directly from `index.html`, but a local server more 
 └── assets/
     ├── favicon.svg
     ├── frutiger-aero-hero-v4.webp
+    ├── frutiger-aero-homelab.webp
     ├── frutiger-aero-fpga.webp
     ├── frutiger-aero-data-pipelines.webp
-    └── isabela-chaves-portrait.jpg
+    ├── isabela-chaves-portrait.jpg
+    └── isabela-chaves-resume.pdf
 ```
 
 ## Main sections
 
-- **Hero:** introduction and primary contact links
+- **Hero:** introduction, primary contact links, and resume download
 - **About:** biography and professional background
-- **Expertise:** digital law and LGPD, cloud platforms, backend engineering, and data and machine learning
-- **Credentials:** accurately labelled course certificates
-- **Current work:** a 16-bit FPGA processor and home data pipelines
-- **Hobbies:** 3D printing, homelab, and piano
-- **Technical index:** tools and technologies
-- **Contact:** email, GitHub, and LinkedIn
+- **Expertise:** backend engineering, cloud and platform engineering, data systems and ML pipelines, and digital compliance
+- **Featured systems & projects:** bare-metal homelab and data platform, a 16-bit FPGA processor, and a semantic graph and embedding discovery engine
+- **Credentials:** law degree, AWS and Kubernetes study paths
+- **Technical index:** languages, tools, and platforms
+- **Contact:** email, GitHub, LinkedIn, and resume
+
+The resume ships as `assets/isabela-chaves-resume.pdf`; replace that file to update the download linked from the nav, hero, and contact section.
 
 ## Customization
 
